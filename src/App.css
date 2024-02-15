@@ -1,0 +1,70 @@
+.button-group {
+  display: flex;
+}
+
+.tab {
+  font-size: 15px;
+  font-family: sans-serif;
+  padding: 10px 60px;
+  cursor: pointer;
+  opacity: 0.3;
+  background: white;
+  border: 0;
+  outline: 0;
+  border-bottom: 2px solid black;
+}
+
+.tab.active {
+  border-bottom: 2px solid black;
+  opacity: 1;
+}
+
+/* CSS */
+.button-25 {
+  background-color: #4bbebd;
+  border-radius: 4px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08);
+  color: #FFFFFF;
+  cursor: pointer;
+  display: block;
+  font-family: -apple-system,".SFNSDisplay-Regular","Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 17px;
+  line-height: 100%;
+  margin: 0;
+  outline: 0;
+  padding: 11px 15px 12px;
+  text-align: center;
+  transition: box-shadow .05s ease-in-out,opacity .05s ease-in-out;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: 150px;
+  border: none; /* Remove border */
+}
+
+
+.button-25:hover {
+  box-shadow: rgba(255, 255, 255, 0.3) 0 0 2px inset, rgba(0, 0, 0, 0.4) 0 1px 2px;
+  text-decoration: none;
+  transition-duration: .15s, .15s;
+}
+
+.button-25:active {
+  box-shadow: rgba(0, 0, 0, 0.15) 0 2px 4px inset, rgba(0, 0, 0, 0.4) 0 1px 1px;
+}
+
+
+input[type=checkbox] {
+  content: '';
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  /* border: 1px solid #ccc; */
+  background-color: #fff;
+  box-shadow: 0 0 1px 0 rgba(0, 0, 0, 0.3);
+}
+
+.custom-table {
+  height: 50px; /* Adjust the height as needed */
+}
+
